@@ -1,0 +1,8 @@
+= Antora Sample Documentation Site
+Nathan Olson <nsolson15@gmail.com>
+1.0, 2019-09-04
+
+== Playbook
+
+The playbook, defined in a playbook file, configures the build for the site. The playbook specifies the content sources (repository and branches), site URL, UI bundle URL, global AsciiDoc attributes, and Asciidoctor extensions.
+
