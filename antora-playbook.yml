@@ -1,0 +1,12 @@
+site:
+  title: Antora Sample Documentation Site
+  url: https://docs.olson.io
+  start_page: antora-sample-project::index.adoc
+content:
+  sources:
+    - url: https://github.com/olson-nathan/antora-sample-project.git
+      branches: master
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
